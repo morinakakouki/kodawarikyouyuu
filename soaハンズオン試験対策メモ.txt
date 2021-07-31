@@ -1,0 +1,138 @@
+項目65個
+目標11月末
+月16個強
+週4個
+忙しい月がある事を考慮する、本当にそれで学習出来ているのかを考える。実施内容を詳細に記載する。
+
+
+分野 1: 監視、ロギング、および解決
+1.1 AWS の監視サービスおよびロギングサービスを使用して、メトリクス、アラーム、およびフィル
+タを実装する。
+ ログを識別、収集、分析、およびエクスポートする (例: Amazon CloudWatch Logs、
+CloudWatch Logs Insights、AWS CloudTrail ログ)。
+
+ CloudWatch エージェントを使用して、メトリクスおよびログを収集する。
+　　7/30右記のurlを参考（CloudWatch エージェントを使用してメモリ・ディスク使用率の情報を収集）。https://engineers.weddingpark.co.jp/aws-cloudwatch-ec2/※エージェント起動時のエラーは下の方に対処法あり。
+　　7/30右記のurlを参考（cloudwatchエージェントを利用して/var/log/messagesをcloudwatchのロググループで確認できるようにした。）https://cloudpack.media/49477
+
+ CloudWatch アラームを作成する。
+   7/27udemy-これだけでOK！AWS認定ソリューションアーキテクトアソシエイト試験突破講座-cloudwatchハンズオン①実施済み（CloudWatch アラームとダッシュボードを作成）
+
+ メトリクスフィルタを作成する。
+
+ CloudWatch ダッシュボードを作成する。
+   7/27udemy-これだけでOK！AWS認定ソリューションアーキテクトアソシエイト試験突破講座-cloudwatchハンズオン①実施済み（CloudWatch アラームとダッシュボードを作成）
+   7/30右記urlでダッシュボードを作成する（https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/monitoring/create_dashboard.html）
+
+ 通知を構成する (例: Amazon Simple Notification Service (Amazon SNS)、Service
+Quotas、CloudWatch アラーム、AWS Health イベント)。
+   7/27udemy-これだけでOK！AWS認定ソリューションアーキテクトアソシエイト試験突破講座-cloudwatchハンズオン②実施済み（cloudwatchイベントとSNSを連携してEC2の状態が変わった時のメールを通知）
+   
+1.2 監視メトリクスおよび可用性メトリクスに基づいて問題を解決する。
+ 通知およびアラームに基づいて、トラブルシューティングを行うかまたは是正措置を講じ
+る。
+ アクションをトリガするよう、Amazon EventBridge ルールを構成する。
+ AWS Systems Manager 自動化ドキュメントを使用して、AWS Config ルールに基づくアク
+ションを実行する。
+分野 2: 信頼性および事業継続性
+2.1 拡張性および伸縮性を実装する。
+ AWS Auto Scaling プランを作成および保守する。
+ キャッシングを実装する。
+ Amazon RDS レプリカおよび Amazon Aurora レプリカを実装する。
+ 疎結合アーキテクチャを実装する。
+ 水平スケーリングと垂直スケーリングを使い分ける。
+2.2 高可用性および回復性を備えた環境を実装する。
+ Elastic Load Balancer および Amazon Route 53 のヘルスチェックを構成する。
+ 単一アベイラビリティーゾーン配置とマルチ AZ 配置を使い分ける (例: Amazon EC2 Auto
+Scaling グループ、Elastic Load Balancing、Amazon FSx、Amazon RDS)。
+ フォールトトレラントなワークロードを実装する (例: Amazon Elastic File System
+(Amazon EFS)、Elastic IP アドレス)。
+ Route 53 ルーティングポリシーを実装する (例: フェールオーバー、加重、レイテンシー
+ベース)。
+2.3 バックアップ戦略および復元戦略を実装する。
+ 用途に基づいてスナップショット作成処理およびバックアップ処理を自動化する (例: RDS
+スナップショット、AWS Backup、RTO/RPO、Amazon Data Lifecycle Manager、保持ポリ
+シー)。
+ データベースを復元する (例: 特定時点復元、リードレプリカの昇格)。
+ バージョニングルールおよびライフサイクルルールを実装する。
+ Amazon S3 のリージョン間レプリケーションを構成する。
+ ディザスタリカバリ手順を実行する。
+分野 3: 展開、プロビジョニング、および自動化
+3.1 クラウドリソースをプロビジョニングおよび保守する。
+ AMI を作成および管理する (例: EC2 Image Builder)。
+ AWS CloudFormation の構成要素を作成、管理、およびトラブルシューティングする。
+ 複数の AWS リージョンおよび AWS アカウントにまたがってリソースをプロビジョニングす
+る (例: AWS Resource Access Manager、CloudFormation StackSets、IAM クロスアカウン
+トロール)。
+ 展開シナリオおよび展開サービスを選択する (例: ブルー/グリーン、ローリング、カナリ
+ア)。
+ 展開に関する問題を特定および解決する (例: サービスクオータ、サブネットのサイズ変
+更、CloudFormation エラー、AWS OpsWorks エラー、権限)。
+3.2 手動プロセスまたは繰り返し実行されるプロセスを自動化する。
+ AWS サービスを使用して、展開プロセスを自動化する (例: OpsWorks、Systems Manager、
+CloudFormation)。
+ 修正プログラムの自動管理を実装する。
+ AWS サービスを使用して、自動化されたタスクをスケジューリングする (例:
+EventBridge、AWS Config)。
+ 
+バージョン 1.4 SOA-C02 6 | ページ
+分野 4: セキュリティおよびコンプライアンス
+4.1 セキュリティポリシーおよびコンプライアンスポリシーを実装および管理する。
+ IAM 機能を実装する (例: パスワードポリシー、MFA、ロール、SAML、フェデレーション
+ID、リソースポリシー、ポリシー条件)。
+ AWS サービスを使用して、アクセスに関する問題をトラブルシューティングおよび監査する
+(例: CloudTrail、IAM Access Analyzer、IAM Policy Simulator)。
+ サービスコントロールポリシーおよび権限境界の妥当性を検査する。
+ AWS Trusted Advisor セキュリティ検査の内容を確認する。
+ コンプライアンス要件に基づいて、選択した AWS リージョンおよびサービスの妥当性を検
+査する。
+ セキュアなマルチアカウント戦略を実装する (例: AWS Control Tower、AWS
+Organizations)。
+4.2 データ保護戦略およびインフラストラクチャ保護戦略を実装する。
+ データ分類スキームを適用する。
+ 暗号化キーを作成、管理、および保護する。
+ 格納データの暗号化を実装する (例: AWS Key Management Service (AWS KMS))。
+ 送信中データの暗号化を実装する (例: AWS Certificate Manager、VPN)。
+ AWS サービスを使用して、シークレットをセキュアな方法で格納する (例: AWS Secrets
+Manager、Systems Manager、Parameter Store)。
+ レポートまたは調査結果の内容を確認する (例: AWS Security Hub、Amazon GuardDuty、
+AWS Config、Amazon Inspector)。
+分野 5: ネットワーキングおよびコンテンツ配信
+5.1 ネットワーキング機能および接続を実装する。
+ VPC を構成する (例: サブネット、ルーティングテーブル、ネットワーク ACL、セキュリ
+ティグループ、NAT ゲートウェイ、インターネットゲートウェイ)。
+ プライベート接続を構成する (例: Systems Manager Session Manager、VPC エンドポイン
+ト、VPC ピアリング、VPN)。
+ AWS のネットワーク保護サービスを構成する (例: AWS WAF、AWS Shield)。
+5.2 ドメイン、DNS サービス、およびコンテンツ配信を構成する。
+ Route 53 のホストゾーンおよびレコードを構成する。
+ Route 53 ルーティングポリシーを実装する (例: 位置情報、地理的近接性)。
+ DNS を構成する (例: Route 53 Resolver)。
+ Amazon CloudFront および S3 オリジンアクセスアイデンティティ (OAI) を構成する。
+ S3 静的 Web サイトホスティングを構成する。
+5.3 ネットワーク接続問題をトラブルシューティングする。
+ VPC 構成を理解する (例: サブネット、ルーティングテーブル、ネットワーク ACL、セキュ
+リティグループ)。
+ ログを収集および解釈する (例: VPC フローログ、Elastic Load Balancer アクセスログ、
+AWS WAF Web ACL ログ、CloudFront ログ)。
+ CloudFront のキャッシング問題を特定および解決する。
+ ハイブリッド接続問題およびプライベート接続問題をトラブルシューティングする。
+分野 6: コストおよびパフォーマンスの最適化
+6.1 コスト最適化戦略を実装する。
+ コスト配分タグを実装する。
+ AWS のサービスおよびツールを使用して、使用率の低いリソースや使用していないリソース
+を特定し、修正する (例: Trusted Advisor、AWS Compute Optimizer、Cost Explorer)。
+ AWS Budgets および請求アラームを構成する。
+ リソース使用パターンを評価し、EC2 スポットインスタンスに適したワークロードを特定す
+る。
+バージョン 1.4 SOA-C02 7 | ページ
+ マネージドサービスを使用する機会を特定する (例: Amazon RDS、AWS Fargate、EFS)。
+6.2 パフォーマンス最適化戦略を実装する。
+ パフォーマンスメトリクスに基づいてコンピュートリソースを提案する。
+ Amazon EBS メトリクスを監視し、パフォーマンス効率を高めるよう構成を修正する。
+ S3 のパフォーマンス機能を実装する (例: S3 Transfer Acceleration、マルチパートアッ
+プロード)。
+ RDS メトリクスを監視し、パフォーマンス効率を高めるよう構成を修正する (例:
+Performance Insights、RDS Proxy)。
+ EC2 の拡張機能を有効化する (例: 拡張ネットワークアダプタ、インスタンスストア、プレ
+イスメントグループ)。
