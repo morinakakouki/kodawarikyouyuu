@@ -10,7 +10,7 @@
 タを実装する。
  ログを識別、収集、分析、およびエクスポートする (例: Amazon CloudWatch Logs、
 CloudWatch Logs Insights、AWS CloudTrail ログ)。
-
+    7/31cloudtrailを使用して証跡を作成右記URLを使用ステップ3まで（https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-tutorial.html）
  CloudWatch エージェントを使用して、メトリクスおよびログを収集する。
 　　7/30右記のurlを参考（CloudWatch エージェントを使用してメモリ・ディスク使用率の情報を収集）。https://engineers.weddingpark.co.jp/aws-cloudwatch-ec2/※エージェント起動時のエラーは下の方に対処法あり。
 　　7/30右記のurlを参考（cloudwatchエージェントを利用して/var/log/messagesをcloudwatchのロググループで確認できるようにした。）https://cloudpack.media/49477
