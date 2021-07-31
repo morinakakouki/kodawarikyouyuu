@@ -20,7 +20,7 @@ CloudWatch Logs Insights、AWS CloudTrail ログ)。
    7/27udemy-これだけでOK！AWS認定ソリューションアーキテクトアソシエイト試験突破講座-cloudwatchハンズオン①実施済み（CloudWatch アラームとダッシュボードを作成）
 
  メトリクスフィルタを作成する。
-
+7/31ロググループのメトリクスフィルタを作成https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/logs/CreateMetricFilterProcedure.html
  CloudWatch ダッシュボードを作成する。
    7/27udemy-これだけでOK！AWS認定ソリューションアーキテクトアソシエイト試験突破講座-cloudwatchハンズオン①実施済み（CloudWatch アラームとダッシュボードを作成）
    7/30右記urlでダッシュボードを作成する（https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/monitoring/create_dashboard.html）
