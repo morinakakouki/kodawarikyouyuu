@@ -38,6 +38,9 @@ Quotas、CloudWatch アラーム、AWS Health イベント)。
 分野 2: 信頼性および事業継続性
 2.1 拡張性および伸縮性を実装する。
  AWS Auto Scaling プランを作成および保守する。
+これやりたい↓
+https://dev.classmethod.jp/articles/introduction-to-aws-networking-and-autoscaling-web-server/
+
  キャッシングを実装する。
  Amazon RDS レプリカおよび Amazon Aurora レプリカを実装する。
  疎結合アーキテクチャを実装する。
