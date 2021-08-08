@@ -60,7 +60,10 @@ Scaling グループ、Elastic Load Balancing、Amazon FSx、Amazon RDS)。
 スナップショット、AWS Backup、RTO/RPO、Amazon Data Lifecycle Manager、保持ポリ
 シー)。
  データベースを復元する (例: 特定時点復元、リードレプリカの昇格)。
+スナップショットを作成して復元https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_CreateSnapshot.html
  バージョニングルールおよびライフサイクルルールを実装する。
+バージョニングhttps://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/manage-versioning-examples.html
+ライフサイクルルールの作成https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/how-to-set-lifecycle-configuration-intro.html
  Amazon S3 のリージョン間レプリケーションを構成する。
  ディザスタリカバリ手順を実行する。
 分野 3: 展開、プロビジョニング、および自動化
@@ -140,5 +143,7 @@ AWS WAF Web ACL ログ、CloudFront ログ)。
 プロード)。
  RDS メトリクスを監視し、パフォーマンス効率を高めるよう構成を修正する (例:
 Performance Insights、RDS Proxy)。
+Performance Insightsを有効にした。https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_PerfInsights.Enabling.html
+rdsproxy時間があったらやりたいhttps://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/rds-proxy.html
  EC2 の拡張機能を有効化する (例: 拡張ネットワークアダプタ、インスタンスストア、プレ
 イスメントグループ)。
