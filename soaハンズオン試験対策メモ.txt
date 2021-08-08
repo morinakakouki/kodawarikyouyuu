@@ -42,9 +42,9 @@ Quotas、CloudWatch アラーム、AWS Health イベント)。
 8/7右記実施済み、スケーリングプランは未実施https://dev.classmethod.jp/articles/introduction-to-aws-networking-and-autoscaling-web-server/
  キャッシングを実装する。
  Amazon RDS レプリカおよび Amazon Aurora レプリカを実装する。
-https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/TUT_WebAppWithRDS.html
-データベースの接続に失敗したので下記URLのApacheウェブサーバをDBインスタンスに接続するをやったらできた。
-https://qiita.com/udonnamerou/items/28c0b7aad954d92cbc4b
+チュートリアル: ウェブサーバーと Amazon RDS DB インスタンスを作成するhttps://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/TUT_WebAppWithRDS.html
+データベースの接続に失敗したので右記URLのApacheウェブサーバをDBインスタンスに接続するをやったらできた（コマンドミスだった）。https://qiita.com/udonnamerou/items/28c0b7aad954d92cbc4b
+リードレプリカの実装https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_ReadRepl.html
  疎結合アーキテクチャを実装する。
  水平スケーリングと垂直スケーリングを使い分ける。
 2.2 高可用性および回復性を備えた環境を実装する。
