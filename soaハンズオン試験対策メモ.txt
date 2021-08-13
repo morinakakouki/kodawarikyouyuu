@@ -40,8 +40,9 @@ Quotas、CloudWatch アラーム、AWS Health イベント)。
 2.1 拡張性および伸縮性を実装する。
  AWS Auto Scaling プランを作成および保守する。
 8/7右記実施済み、スケーリングプランは未実施https://dev.classmethod.jp/articles/introduction-to-aws-networking-and-autoscaling-web-server/
+ヒント環境変数は""で囲む、サンプルコードは最初にクローンしたやつexample.py
  キャッシングを実装する。
-未実施RDSとredis連携https://aws.amazon.com/jp/getting-started/hands-on/boosting-mysql-database-performance-with-amazon-elasticache-for-redis/
+8/13コマンド実行して返ってきたのでOKRDSとredis連携https://aws.amazon.com/jp/getting-started/hands-on/boosting-mysql-database-performance-with-amazon-elasticache-for-redis/
  Amazon RDS レプリカおよび Amazon Aurora レプリカを実装する。
 チュートリアル: ウェブサーバーと Amazon RDS DB インスタンスを作成するhttps://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/TUT_WebAppWithRDS.html
 データベースの接続に失敗したので右記URLのApacheウェブサーバをDBインスタンスに接続するをやったらできた（コマンドミスだった）。https://qiita.com/udonnamerou/items/28c0b7aad954d92cbc4b
