@@ -47,6 +47,7 @@ Quotas、CloudWatch アラーム、AWS Health イベント)。
 データベースの接続に失敗したので右記URLのApacheウェブサーバをDBインスタンスに接続するをやったらできた（コマンドミスだった）。https://qiita.com/udonnamerou/items/28c0b7aad954d92cbc4b
 リードレプリカの実装https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_ReadRepl.html
  疎結合アーキテクチャを実装する。
+8/13SQSの開始方法のみ実施足りないと思うhttps://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-getting-started.html
  水平スケーリングと垂直スケーリングを使い分ける。
 2.2 高可用性および回復性を備えた環境を実装する。
  Elastic Load Balancer および Amazon Route 53 のヘルスチェックを構成する。
