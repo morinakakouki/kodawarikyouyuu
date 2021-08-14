@@ -52,7 +52,7 @@ Quotas、CloudWatch アラーム、AWS Health イベント)。
  水平スケーリングと垂直スケーリングを使い分ける。
 2.2 高可用性および回復性を備えた環境を実装する。
  Elastic Load Balancer および Amazon Route 53 のヘルスチェックを構成する。
-8/14
+8/14右記を実施https://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/application/application-load-balancer-getting-started.html#test-load-balancer
 プライベートサブネットでインスタンスを起動してハマった。
 参考：https://tech.recruit-mp.co.jp/infrastructure/retry-aws-bastion-host-vpc/
 https://qiita.com/yuruneba/items/6ca41967dfdc44e3a0e0
