@@ -59,6 +59,9 @@ https://qiita.com/yuruneba/items/6ca41967dfdc44e3a0e0
 https://qiita.com/sshojiro/items/60982f06c1a0ba88c160
 プライベートからインターネットに出れなくてハマった
 参考：https://aws.amazon.com/jp/premiumsupport/knowledge-center/ec2-internet-connectivity/
+
+未実施dnsヘルスチェックホストゾーン作成後実施
+
  単一アベイラビリティーゾーン配置とマルチ AZ 配置を使い分ける (例: Amazon EC2 Auto
 Scaling グループ、Elastic Load Balancing、Amazon FSx、Amazon RDS)。
  フォールトトレラントなワークロードを実装する (例: Amazon Elastic File System
