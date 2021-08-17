@@ -110,6 +110,8 @@ ID、リソースポリシー、ポリシー条件)。
 査する。
  セキュアなマルチアカウント戦略を実装する (例: AWS Control Tower、AWS
 Organizations)。
+8/17organizations実施。https://docs.aws.amazon.com/ja_jp/organizations/latest/userguide/orgs_tutorials_basic.html#tutorial-orgs-step1
+上記URLでメンバーアカウントを作成する
 4.2 データ保護戦略およびインフラストラクチャ保護戦略を実装する。
  データ分類スキームを適用する。
  暗号化キーを作成、管理、および保護する。
