@@ -128,7 +128,7 @@ AWS Config、Amazon Inspector)。
  AWS のネットワーク保護サービスを構成する (例: AWS WAF、AWS Shield)。
 5.2 ドメイン、DNS サービス、およびコンテンツ配信を構成する。
  Route 53 のホストゾーンおよびレコードを構成する。
-※freenomでドメインを取得→ホストゾーン作成→ネームサーバをawsのやつにする
+8/17※freenomでドメインを取得→ホストゾーン作成→ネームサーバをawsのやつにする
  Route 53 ルーティングポリシーを実装する (例: 位置情報、地理的近接性)。
  DNS を構成する (例: Route 53 Resolver)。
  Amazon CloudFront および S3 オリジンアクセスアイデンティティ (OAI) を構成する。
