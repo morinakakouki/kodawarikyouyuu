@@ -60,16 +60,22 @@ https://qiita.com/sshojiro/items/60982f06c1a0ba88c160
 プライベートからインターネットに出れなくてハマった
 参考：https://aws.amazon.com/jp/premiumsupport/knowledge-center/ec2-internet-connectivity/
 
-未実施dnsヘルスチェックホストゾーン作成後実施
-8/21webサーバー導入後にヘルスチェック
+dnsヘルスチェック
+8/21webサーバー導入後にヘルスチェック、フェールオーバー
 https://qiita.com/u-bayashi/items/ce3ecb3badda60179fab
 https://qiita.com/kooohei/items/c24dd3bab57552127886
+
  単一アベイラビリティーゾーン配置とマルチ AZ 配置を使い分ける (例: Amazon EC2 Auto
 Scaling グループ、Elastic Load Balancing、Amazon FSx、Amazon RDS)。
  フォールトトレラントなワークロードを実装する (例: Amazon Elastic File System
 (Amazon EFS)、Elastic IP アドレス)。
+実施予定https://docs.aws.amazon.com/efs/latest/ug/wt1-create-ec2-resources.html
+
  Route 53 ルーティングポリシーを実装する (例: フェールオーバー、加重、レイテンシー
 ベース)。
+8/21フェールオーバー、dnsヘルスチェック実施時に実施済み
+未実施加重
+未実施レイテンシー
 2.3 バックアップ戦略および復元戦略を実装する。
  用途に基づいてスナップショット作成処理およびバックアップ処理を自動化する (例: RDS
 スナップショット、AWS Backup、RTO/RPO、Amazon Data Lifecycle Manager、保持ポリ
