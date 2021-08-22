@@ -75,12 +75,12 @@ https://docs.aws.amazon.com/ja_jp/efs/latest/ug/gs-step-two-create-efs-resources
  Route 53 ルーティングポリシーを実装する (例: フェールオーバー、加重、レイテンシー
 ベース)。
 8/21フェールオーバー、dnsヘルスチェック実施時に実施済み
-未実施加重
-未実施レイテンシー
+8/22実施済み加重、レイテンシーhttps://qiita.com/miyuki_samitani/items/0b2f155da75350629c7c
 2.3 バックアップ戦略および復元戦略を実装する。
  用途に基づいてスナップショット作成処理およびバックアップ処理を自動化する (例: RDS
 スナップショット、AWS Backup、RTO/RPO、Amazon Data Lifecycle Manager、保持ポリ
 シー)。
+aws Backup実施予定https://docs.aws.amazon.com/ja_jp/aws-backup/latest/devguide/getting-started.html
  データベースを復元する (例: 特定時点復元、リードレプリカの昇格)。
 スナップショットを作成して復元https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_CreateSnapshot.html
  バージョニングルールおよびライフサイクルルールを実装する。
