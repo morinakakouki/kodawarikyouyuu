@@ -69,7 +69,8 @@ https://qiita.com/kooohei/items/c24dd3bab57552127886
 Scaling グループ、Elastic Load Balancing、Amazon FSx、Amazon RDS)。
  フォールトトレラントなワークロードを実装する (例: Amazon Elastic File System
 (Amazon EFS)、Elastic IP アドレス)。
-実施予定https://docs.aws.amazon.com/efs/latest/ug/wt1-create-ec2-resources.html
+8/22実施済みファイルシステム作成→インスタンス2台でファイル共有
+https://docs.aws.amazon.com/ja_jp/efs/latest/ug/gs-step-two-create-efs-resources.html
 
  Route 53 ルーティングポリシーを実装する (例: フェールオーバー、加重、レイテンシー
 ベース)。
