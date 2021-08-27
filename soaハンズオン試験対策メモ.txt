@@ -80,7 +80,8 @@ https://docs.aws.amazon.com/ja_jp/efs/latest/ug/gs-step-two-create-efs-resources
  用途に基づいてスナップショット作成処理およびバックアップ処理を自動化する (例: RDS
 スナップショット、AWS Backup、RTO/RPO、Amazon Data Lifecycle Manager、保持ポリ
 シー)。
-aws Backup実施予定https://docs.aws.amazon.com/ja_jp/aws-backup/latest/devguide/getting-started.html
+aws Backup実施済み8/27https://docs.aws.amazon.com/ja_jp/aws-backup/latest/devguide/create-on-demand-backup.html
+実施予定
  データベースを復元する (例: 特定時点復元、リードレプリカの昇格)。
 スナップショットを作成して復元https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_CreateSnapshot.html
  バージョニングルールおよびライフサイクルルールを実装する。
