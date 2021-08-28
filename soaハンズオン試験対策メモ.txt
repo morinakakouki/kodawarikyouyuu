@@ -81,7 +81,7 @@ https://docs.aws.amazon.com/ja_jp/efs/latest/ug/gs-step-two-create-efs-resources
 スナップショット、AWS Backup、RTO/RPO、Amazon Data Lifecycle Manager、保持ポリ
 シー)。
 aws Backup実施済み8/27https://docs.aws.amazon.com/ja_jp/aws-backup/latest/devguide/create-on-demand-backup.html
-実施予定
+8/28実施済み、オプション 2: スケジュール・バックアップの作成、バックアップジョブの監視、バックアップの復元、リソースをクリーンアップする
  データベースを復元する (例: 特定時点復元、リードレプリカの昇格)。
 スナップショットを作成して復元https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_CreateSnapshot.html
  バージョニングルールおよびライフサイクルルールを実装する。
